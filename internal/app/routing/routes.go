@@ -4,7 +4,6 @@ import (
 	"github.com/gorilla/mux"
 )
 
-// NewRouter создает роутер со всеми маршрутами
 func NewRouter(server *Server) *mux.Router {
 	router := mux.NewRouter()
 

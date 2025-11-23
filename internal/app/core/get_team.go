@@ -5,8 +5,6 @@ import (
 	"context"
 )
 
-// GetTeamResponse - ответ на получение команды (соответствует OpenAPI Team schema)
-// OpenAPI возвращает Team schema напрямую, без обертки
 type GetTeamResponse struct {
 	TeamName string               `json:"team_name"`
 	Members  []team.TeamMemberDTO `json:"members"`

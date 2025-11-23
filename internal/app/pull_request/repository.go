@@ -271,7 +271,7 @@ func (request *PullRequestRepo) getByIDTx(ctx context.Context, tx pgx.Tx, prID s
 
 func (request *PullRequestRepo) merge(ctx context.Context, prID string) (*PullRequestEntity, error) {
 	var entity PullRequestEntity
-	// Пытаемся обновить PR если он ещё не MERGED
+
 	err := request.db.ExecQueryRow(ctx, `
 		UPDATE pull_request
 		SET status = 'MERGED', merged_at = NOW()
@@ -293,18 +293,15 @@ func (request *PullRequestRepo) merge(ctx context.Context, prID string) (*PullRe
 	)
 
 	if err == nil {
-		// Успешно обновили OPEN -> MERGED
 		log.Printf("[PullRequestRepo.merge] PR '%s' merged successfully", prID)
 		return &entity, nil
 	}
 
 	if !errors.Is(err, pgx.ErrNoRows) {
-		// Реальная ошибка БД
 		log.Printf("[PullRequestRepo.merge] db error updating PR '%s': %v", prID, err)
 		return nil, apperrors.ErrDB
 	}
 
-	// Если ничего не обновилось — значит либо PR не найден, либо уже MERGED
 	err = request.db.ExecQueryRow(ctx, `
 		SELECT 
 			pull_request_id, 
@@ -334,7 +331,6 @@ func (request *PullRequestRepo) merge(ctx context.Context, prID string) (*PullRe
 		return nil, apperrors.ErrDB
 	}
 
-	// Возвращаем текущее состояние (идемпотентность)
 	log.Printf("[PullRequestRepo.merge] PR '%s' already merged, returning existing state", prID)
 	return &entity, nil
 }

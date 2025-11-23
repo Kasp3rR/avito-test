@@ -5,13 +5,11 @@ import (
 	"context"
 )
 
-// AddTeamRequest - запрос на создание команды (соответствует OpenAPI Team schema)
 type AddTeamRequest struct {
 	TeamName string               `json:"team_name"`
 	Members  []team.TeamMemberDTO `json:"members"`
 }
 
-// AddTeamResponse - ответ на создание команды (обернут в team)
 type AddTeamResponse struct {
 	Team team.TeamDTO `json:"team"`
 }
@@ -25,7 +23,6 @@ func (s *Service) AddTeam(ctx context.Context, req *AddTeamRequest) (*AddTeamRes
 	if err != nil {
 		return nil, err
 	}
-	// Возвращаем созданную команду
 	createdTeam, err := s.team.GetByTeamName(ctx, req.TeamName)
 	if err != nil {
 		return nil, err

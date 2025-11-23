@@ -5,7 +5,6 @@ import (
 	"context"
 )
 
-// GetReviewResponse - ответ на получение PR пользователя (соответствует OpenAPI)
 type GetReviewResponse struct {
 	UserID       string                                     `json:"user_id"`
 	PullRequests []*pullrequest.PullRequestShortDTOFromHttp `json:"pull_requests"`

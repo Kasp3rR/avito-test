@@ -19,7 +19,6 @@ type Server struct {
 	impl ImplInterface
 }
 
-// NewServer создает новый HTTP сервер
 func NewServer(impl ImplInterface) *Server {
 	return &Server{
 		impl: impl,

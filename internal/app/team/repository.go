@@ -43,7 +43,7 @@ func (t *TeamRepo) create(ctx context.Context, teamName string, members []*TeamM
 		}
 	}()
 
-	// 1. Добавляем команду
+
 	_, err = tx.Exec(ctx, `
 		INSERT INTO team (team_name) VALUES ($1)
 	`, teamName)
@@ -57,7 +57,7 @@ func (t *TeamRepo) create(ctx context.Context, teamName string, members []*TeamM
 		return apperrors.ErrDB
 	}
 
-	// 2. Добавляем/обновляем участников
+
 	for _, member := range members {
 		_, err := tx.Exec(ctx, `
 			INSERT INTO users (user_id, username, team_id, is_active)
@@ -76,7 +76,6 @@ func (t *TeamRepo) create(ctx context.Context, teamName string, members []*TeamM
 }
 
 func (t *TeamRepo) getByName(ctx context.Context, teamName string) (*TeamEntity, []TeamMemberEntity, error) {
-	// 1. Получаем команду
 	var entity TeamEntity
 	err := t.db.Get(ctx, &entity, "SELECT id, team_name FROM team WHERE team_name=$1", teamName)
 	if err != nil {
@@ -88,7 +87,6 @@ func (t *TeamRepo) getByName(ctx context.Context, teamName string) (*TeamEntity,
 		return nil, nil, apperrors.ErrDB
 	}
 
-	// 2. Получаем участников
 	rows, err := t.db.GetPool(ctx).Query(ctx, `
         SELECT user_id, username, is_active
         FROM users

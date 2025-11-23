@@ -5,13 +5,11 @@ import (
 	"context"
 )
 
-// SetIsActiveRequest - запрос на изменение активности пользователя (соответствует OpenAPI)
 type SetIsActiveRequest struct {
 	UserID   string `json:"user_id"`
 	IsActive bool   `json:"is_active"`
 }
 
-// SetIsActiveResponse - ответ на изменение активности (обернут в user)
 type SetIsActiveResponse struct {
 	User user.UserDTO `json:"user"`
 }

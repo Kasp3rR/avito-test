@@ -5,12 +5,10 @@ import (
 	"time"
 )
 
-// MergePullReqRequest - запрос на merge PR (соответствует OpenAPI)
 type MergePullReqRequest struct {
 	PullRequestID string `json:"pull_request_id"`
 }
 
-// MergePullReqResponse - ответ на merge PR (обернут в pr, с camelCase для дат)
 type MergePullReqResponse struct {
 	PR MergePullReqPR `json:"pr"`
 }

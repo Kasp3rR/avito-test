@@ -5,13 +5,11 @@ import (
 	"time"
 )
 
-// ReassignPullReqRequest - запрос на переназначение ревьювера (соответствует OpenAPI)
 type ReassignPullReqRequest struct {
 	PullRequestID string `json:"pull_request_id"`
 	OldUserID     string `json:"old_user_id"`
 }
 
-// ReassignPullReqResponse - ответ на переназначение (обернут в pr, с replaced_by и camelCase для дат)
 type ReassignPullReqResponse struct {
 	PR         ReassignPullReqPR `json:"pr"`
 	ReplacedBy string            `json:"replaced_by"`
@@ -44,7 +42,6 @@ func (s *Service) ReassignPullRequest(ctx context.Context, request *ReassignPull
 		},
 	}
 
-	// Преобразуем даты из snake_case в camelCase
 	if !dto.CreatedAt.IsZero() {
 		response.PR.CreatedAt = &dto.CreatedAt
 	}

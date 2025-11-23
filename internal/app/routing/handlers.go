@@ -9,7 +9,6 @@ import (
 	"net/http"
 )
 
-// ErrorResponse - структура для ошибок согласно OpenAPI
 type ErrorResponse struct {
 	Error ErrorDetail `json:"error"`
 }
@@ -19,7 +18,6 @@ type ErrorDetail struct {
 	Message string `json:"message"`
 }
 
-// writeError записывает ошибку в ответ с правильным HTTP статусом
 func (s *Server) writeError(w http.ResponseWriter, err error) {
 	var statusCode int
 	var errorCode string
@@ -61,14 +59,12 @@ func (s *Server) writeError(w http.ResponseWriter, err error) {
 	json.NewEncoder(w).Encode(response)
 }
 
-// writeJSON записывает JSON ответ
 func (s *Server) writeJSON(w http.ResponseWriter, statusCode int, data interface{}) {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(statusCode)
 	json.NewEncoder(w).Encode(data)
 }
 
-// AddTeamHandler - POST /team/add
 func (s *Server) AddTeamHandler(w http.ResponseWriter, r *http.Request) {
 	var req core.AddTeamRequest
 	if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
@@ -85,7 +81,6 @@ func (s *Server) AddTeamHandler(w http.ResponseWriter, r *http.Request) {
 	s.writeJSON(w, http.StatusCreated, resp)
 }
 
-// GetTeamHandler - GET /team/get?team_name=...
 func (s *Server) GetTeamHandler(w http.ResponseWriter, r *http.Request) {
 	teamName := r.URL.Query().Get("team_name")
 	if teamName == "" {
@@ -107,7 +102,6 @@ func (s *Server) GetTeamHandler(w http.ResponseWriter, r *http.Request) {
 	s.writeJSON(w, http.StatusOK, resp)
 }
 
-// SetIsActiveHandler - POST /users/setIsActive
 func (s *Server) SetIsActiveHandler(w http.ResponseWriter, r *http.Request) {
 	var req core.SetIsActiveRequest
 	if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
@@ -124,7 +118,6 @@ func (s *Server) SetIsActiveHandler(w http.ResponseWriter, r *http.Request) {
 	s.writeJSON(w, http.StatusOK, resp)
 }
 
-// CreatePullRequestHandler - POST /pullRequest/create
 func (s *Server) CreatePullRequestHandler(w http.ResponseWriter, r *http.Request) {
 	var req core.CreatePullReqRequest
 	if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
@@ -141,7 +134,6 @@ func (s *Server) CreatePullRequestHandler(w http.ResponseWriter, r *http.Request
 	s.writeJSON(w, http.StatusCreated, resp)
 }
 
-// MergePullRequestHandler - POST /pullRequest/merge
 func (s *Server) MergePullRequestHandler(w http.ResponseWriter, r *http.Request) {
 	var req core.MergePullReqRequest
 	if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
@@ -158,7 +150,6 @@ func (s *Server) MergePullRequestHandler(w http.ResponseWriter, r *http.Request)
 	s.writeJSON(w, http.StatusOK, resp)
 }
 
-// ReassignPullRequestHandler - POST /pullRequest/reassign
 func (s *Server) ReassignPullRequestHandler(w http.ResponseWriter, r *http.Request) {
 	var req core.ReassignPullReqRequest
 	if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
@@ -175,7 +166,6 @@ func (s *Server) ReassignPullRequestHandler(w http.ResponseWriter, r *http.Reque
 	s.writeJSON(w, http.StatusOK, resp)
 }
 
-// GetReviewHandler - GET /users/getReview?user_id=...
 func (s *Server) GetReviewHandler(w http.ResponseWriter, r *http.Request) {
 	userID := r.URL.Query().Get("user_id")
 	if userID == "" {

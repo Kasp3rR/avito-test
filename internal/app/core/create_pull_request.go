@@ -6,14 +6,12 @@ import (
 	"time"
 )
 
-// CreatePullReqRequest - запрос на создание PR (соответствует OpenAPI)
 type CreatePullReqRequest struct {
 	PullRequestID   string `json:"pull_request_id"`
 	PullRequestName string `json:"pull_request_name"`
 	AuthorID        string `json:"author_id"`
 }
 
-// CreatePullReqResponse - ответ на создание PR (обернут в pr, с camelCase для дат)
 type CreatePullReqResponse struct {
 	PR CreatePullReqPR `json:"pr"`
 }
@@ -29,7 +27,6 @@ type CreatePullReqPR struct {
 }
 
 func (s *Service) CreatePullRequestFromCreateRequest(ctx context.Context, request *CreatePullReqRequest) (*CreatePullReqResponse, error) {
-	// Преобразуем Request в DTO для сервисного слоя
 	prShort := &pullrequest.PullRequestShortDTOFromHttp{
 		PullRequestID:   request.PullRequestID,
 		PullRequestName: request.PullRequestName,
@@ -41,7 +38,6 @@ func (s *Service) CreatePullRequestFromCreateRequest(ctx context.Context, reques
 		return nil, err
 	}
 
-	// Преобразуем DTO в Response с правильным форматом
 	response := &CreatePullReqResponse{
 		PR: CreatePullReqPR{
 			PullRequestID:     dto.PullRequestID,
@@ -52,7 +48,6 @@ func (s *Service) CreatePullRequestFromCreateRequest(ctx context.Context, reques
 		},
 	}
 
-	// Преобразуем даты из snake_case в camelCase
 	if !dto.CreatedAt.IsZero() {
 		response.PR.CreatedAt = &dto.CreatedAt
 	}
