@@ -1,0 +1,9 @@
+services:
+  postgres-hw:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: avito_test
+      POSTGRES_PASSWORD: test
+      POSTGRES_DB: avito_test
+    ports: 
+     - "5432:5432"
