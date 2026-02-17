@@ -1,0 +1,538 @@
+VCD info: dumpfile dump.vcd opened for output.
+VCD warning: array word sm_testbench.sm_top.sm_cpu.rf.rf[0] will conflict with an escaped identifier.
+VCD warning: array word sm_testbench.sm_top.sm_cpu.rf.rf[1] will conflict with an escaped identifier.
+VCD warning: array word sm_testbench.sm_top.sm_cpu.rf.rf[2] will conflict with an escaped identifier.
+VCD warning: array word sm_testbench.sm_top.sm_cpu.rf.rf[3] will conflict with an escaped identifier.
+VCD warning: array word sm_testbench.sm_top.sm_cpu.rf.rf[4] will conflict with an escaped identifier.
+VCD warning: array word sm_testbench.sm_top.sm_cpu.rf.rf[5] will conflict with an escaped identifier.
+VCD warning: array word sm_testbench.sm_top.sm_cpu.rf.rf[6] will conflict with an escaped identifier.
+VCD warning: array word sm_testbench.sm_top.sm_cpu.rf.rf[7] will conflict with an escaped identifier.
+VCD warning: array word sm_testbench.sm_top.sm_cpu.rf.rf[8] will conflict with an escaped identifier.
+VCD warning: array word sm_testbench.sm_top.sm_cpu.rf.rf[9] will conflict with an escaped identifier.
+VCD warning: array word sm_testbench.sm_top.sm_cpu.rf.rf[10] will conflict with an escaped identifier.
+VCD warning: array word sm_testbench.sm_top.sm_cpu.rf.rf[11] will conflict with an escaped identifier.
+VCD warning: array word sm_testbench.sm_top.sm_cpu.rf.rf[12] will conflict with an escaped identifier.
+VCD warning: array word sm_testbench.sm_top.sm_cpu.rf.rf[13] will conflict with an escaped identifier.
+VCD warning: array word sm_testbench.sm_top.sm_cpu.rf.rf[14] will conflict with an escaped identifier.
+VCD warning: array word sm_testbench.sm_top.sm_cpu.rf.rf[15] will conflict with an escaped identifier.
+VCD warning: array word sm_testbench.sm_top.sm_cpu.rf.rf[16] will conflict with an escaped identifier.
+VCD warning: array word sm_testbench.sm_top.sm_cpu.rf.rf[17] will conflict with an escaped identifier.
+VCD warning: array word sm_testbench.sm_top.sm_cpu.rf.rf[18] will conflict with an escaped identifier.
+VCD warning: array word sm_testbench.sm_top.sm_cpu.rf.rf[19] will conflict with an escaped identifier.
+VCD warning: array word sm_testbench.sm_top.sm_cpu.rf.rf[20] will conflict with an escaped identifier.
+VCD warning: array word sm_testbench.sm_top.sm_cpu.rf.rf[21] will conflict with an escaped identifier.
+VCD warning: array word sm_testbench.sm_top.sm_cpu.rf.rf[22] will conflict with an escaped identifier.
+VCD warning: array word sm_testbench.sm_top.sm_cpu.rf.rf[23] will conflict with an escaped identifier.
+VCD warning: array word sm_testbench.sm_top.sm_cpu.rf.rf[24] will conflict with an escaped identifier.
+VCD warning: array word sm_testbench.sm_top.sm_cpu.rf.rf[25] will conflict with an escaped identifier.
+VCD warning: array word sm_testbench.sm_top.sm_cpu.rf.rf[26] will conflict with an escaped identifier.
+VCD warning: array word sm_testbench.sm_top.sm_cpu.rf.rf[27] will conflict with an escaped identifier.
+VCD warning: array word sm_testbench.sm_top.sm_cpu.rf.rf[28] will conflict with an escaped identifier.
+VCD warning: array word sm_testbench.sm_top.sm_cpu.rf.rf[29] will conflict with an escaped identifier.
+VCD warning: array word sm_testbench.sm_top.sm_cpu.rf.rf[30] will conflict with an escaped identifier.
+VCD warning: array word sm_testbench.sm_top.sm_cpu.rf.rf[31] will conflict with an escaped identifier.
+WARNING: ../../../src/sm_rom.v:13: $readmemh: Standard inconsistency, following 1364-2005.
+WARNING: ../../../src/sm_rom.v:13: $readmemh(program.hex): Not enough words in the file for the requested range [0:63].
+WARNING: ../../../src/sm_data_memory.v:18: $readmemh: Standard inconsistency, following 1364-2005.
+    0  pc = 00000000 instr = 00000593   a0 = xxxxxxxx   addi  $11, $0, 0x00000000
+    1  pc = 00000000 instr = 00000593   a0 = xxxxxxxx   addi  $11, $0, 0x00000000
+    2  pc = 00000000 instr = 00000593   a0 = xxxxxxxx   addi  $11, $0, 0x00000000
+    3  pc = 00000000 instr = 00000593   a0 = xxxxxxxx   addi  $11, $0, 0x00000000
+    4  pc = 00000000 instr = 00000593   a0 = xxxxxxxx   addi  $11, $0, 0x00000000
+    5  pc = 00000004 instr = 00000293   a0 = xxxxxxxx   addi  $5, $0, 0x00000000
+    6  pc = 00000008 instr = 00058313   a0 = xxxxxxxx   addi  $6, $11, 0x00000000
+    7  pc = 0000000c instr = 00100713   a0 = xxxxxxxx   addi  $14, $0, 0x00000001
+    8  pc = 00000010 instr = 00032403   a0 = xxxxxxxx   lw    $8, 0($6)
+    9  pc = 00000014 instr = 00e464b3   a0 = xxxxxxxx   or    $9, $8, $14
+   10  pc = 00000018 instr = 40848633   a0 = xxxxxxxx   sub   $12, $9, $8
+   11  pc = 0000001c instr = 00061863   a0 = xxxxxxxx   bne   $12, $0, 0x00000010 (16)
+   12  pc = 0000002c instr = 00430313   a0 = xxxxxxxx   addi  $6, $6, 0x00000004
+   13  pc = 00000030 instr = 00128293   a0 = xxxxxxxx   addi  $5, $5, 0x00000001
+   14  pc = 00000034 instr = 02000693   a0 = xxxxxxxx   addi  $13, $0, 0x00000020
+   15  pc = 00000038 instr = 00d2b6b3   a0 = xxxxxxxx   sltu  $13, $5, $13
+   16  pc = 0000003c instr = fc069ae3   a0 = xxxxxxxx   bne   $13, $0, 0xffffffd4 (-44)
+   17  pc = 00000010 instr = 00032403   a0 = xxxxxxxx   lw    $8, 0($6)
+   18  pc = 00000014 instr = 00e464b3   a0 = xxxxxxxx   or    $9, $8, $14
+   19  pc = 00000018 instr = 40848633   a0 = xxxxxxxx   sub   $12, $9, $8
+   20  pc = 0000001c instr = 00061863   a0 = xxxxxxxx   bne   $12, $0, 0x00000010 (16)
+   21  pc = 00000020 instr = fff00613   a0 = xxxxxxxx   addi  $12, $0, 0xffffffff
+   22  pc = 00000024 instr = 40860433   a0 = xxxxxxxx   sub   $8, $12, $8
+   23  pc = 00000028 instr = 00832023   a0 = xxxxxxxx   sw    $8, 0($6)
+   24  pc = 0000002c instr = 00430313   a0 = xxxxxxxx   addi  $6, $6, 0x00000004
+   25  pc = 00000030 instr = 00128293   a0 = xxxxxxxx   addi  $5, $5, 0x00000001
+   26  pc = 00000034 instr = 02000693   a0 = xxxxxxxx   addi  $13, $0, 0x00000020
+   27  pc = 00000038 instr = 00d2b6b3   a0 = xxxxxxxx   sltu  $13, $5, $13
+   28  pc = 0000003c instr = fc069ae3   a0 = xxxxxxxx   bne   $13, $0, 0xffffffd4 (-44)
+   29  pc = 00000010 instr = 00032403   a0 = xxxxxxxx   lw    $8, 0($6)
+   30  pc = 00000014 instr = 00e464b3   a0 = xxxxxxxx   or    $9, $8, $14
+   31  pc = 00000018 instr = 40848633   a0 = xxxxxxxx   sub   $12, $9, $8
+   32  pc = 0000001c instr = 00061863   a0 = xxxxxxxx   bne   $12, $0, 0x00000010 (16)
+   33  pc = 0000002c instr = 00430313   a0 = xxxxxxxx   addi  $6, $6, 0x00000004
+   34  pc = 00000030 instr = 00128293   a0 = xxxxxxxx   addi  $5, $5, 0x00000001
+   35  pc = 00000034 instr = 02000693   a0 = xxxxxxxx   addi  $13, $0, 0x00000020
+   36  pc = 00000038 instr = 00d2b6b3   a0 = xxxxxxxx   sltu  $13, $5, $13
+   37  pc = 0000003c instr = fc069ae3   a0 = xxxxxxxx   bne   $13, $0, 0xffffffd4 (-44)
+   38  pc = 00000010 instr = 00032403   a0 = xxxxxxxx   lw    $8, 0($6)
+   39  pc = 00000014 instr = 00e464b3   a0 = xxxxxxxx   or    $9, $8, $14
+   40  pc = 00000018 instr = 40848633   a0 = xxxxxxxx   sub   $12, $9, $8
+   41  pc = 0000001c instr = 00061863   a0 = xxxxxxxx   bne   $12, $0, 0x00000010 (16)
+   42  pc = 00000020 instr = fff00613   a0 = xxxxxxxx   addi  $12, $0, 0xffffffff
+   43  pc = 00000024 instr = 40860433   a0 = xxxxxxxx   sub   $8, $12, $8
+   44  pc = 00000028 instr = 00832023   a0 = xxxxxxxx   sw    $8, 0($6)
+   45  pc = 0000002c instr = 00430313   a0 = xxxxxxxx   addi  $6, $6, 0x00000004
+   46  pc = 00000030 instr = 00128293   a0 = xxxxxxxx   addi  $5, $5, 0x00000001
+   47  pc = 00000034 instr = 02000693   a0 = xxxxxxxx   addi  $13, $0, 0x00000020
+   48  pc = 00000038 instr = 00d2b6b3   a0 = xxxxxxxx   sltu  $13, $5, $13
+   49  pc = 0000003c instr = fc069ae3   a0 = xxxxxxxx   bne   $13, $0, 0xffffffd4 (-44)
+   50  pc = 00000010 instr = 00032403   a0 = xxxxxxxx   lw    $8, 0($6)
+   51  pc = 00000014 instr = 00e464b3   a0 = xxxxxxxx   or    $9, $8, $14
+   52  pc = 00000018 instr = 40848633   a0 = xxxxxxxx   sub   $12, $9, $8
+   53  pc = 0000001c instr = 00061863   a0 = xxxxxxxx   bne   $12, $0, 0x00000010 (16)
+   54  pc = 00000020 instr = fff00613   a0 = xxxxxxxx   addi  $12, $0, 0xffffffff
+   55  pc = 00000024 instr = 40860433   a0 = xxxxxxxx   sub   $8, $12, $8
+   56  pc = 00000028 instr = 00832023   a0 = xxxxxxxx   sw    $8, 0($6)
+   57  pc = 0000002c instr = 00430313   a0 = xxxxxxxx   addi  $6, $6, 0x00000004
+   58  pc = 00000030 instr = 00128293   a0 = xxxxxxxx   addi  $5, $5, 0x00000001
+   59  pc = 00000034 instr = 02000693   a0 = xxxxxxxx   addi  $13, $0, 0x00000020
+   60  pc = 00000038 instr = 00d2b6b3   a0 = xxxxxxxx   sltu  $13, $5, $13
+   61  pc = 0000003c instr = fc069ae3   a0 = xxxxxxxx   bne   $13, $0, 0xffffffd4 (-44)
+   62  pc = 00000010 instr = 00032403   a0 = xxxxxxxx   lw    $8, 0($6)
+   63  pc = 00000014 instr = 00e464b3   a0 = xxxxxxxx   or    $9, $8, $14
+   64  pc = 00000018 instr = 40848633   a0 = xxxxxxxx   sub   $12, $9, $8
+   65  pc = 0000001c instr = 00061863   a0 = xxxxxxxx   bne   $12, $0, 0x00000010 (16)
+   66  pc = 0000002c instr = 00430313   a0 = xxxxxxxx   addi  $6, $6, 0x00000004
+   67  pc = 00000030 instr = 00128293   a0 = xxxxxxxx   addi  $5, $5, 0x00000001
+   68  pc = 00000034 instr = 02000693   a0 = xxxxxxxx   addi  $13, $0, 0x00000020
+   69  pc = 00000038 instr = 00d2b6b3   a0 = xxxxxxxx   sltu  $13, $5, $13
+   70  pc = 0000003c instr = fc069ae3   a0 = xxxxxxxx   bne   $13, $0, 0xffffffd4 (-44)
+   71  pc = 00000010 instr = 00032403   a0 = xxxxxxxx   lw    $8, 0($6)
+   72  pc = 00000014 instr = 00e464b3   a0 = xxxxxxxx   or    $9, $8, $14
+   73  pc = 00000018 instr = 40848633   a0 = xxxxxxxx   sub   $12, $9, $8
+   74  pc = 0000001c instr = 00061863   a0 = xxxxxxxx   bne   $12, $0, 0x00000010 (16)
+   75  pc = 0000002c instr = 00430313   a0 = xxxxxxxx   addi  $6, $6, 0x00000004
+   76  pc = 00000030 instr = 00128293   a0 = xxxxxxxx   addi  $5, $5, 0x00000001
+   77  pc = 00000034 instr = 02000693   a0 = xxxxxxxx   addi  $13, $0, 0x00000020
+   78  pc = 00000038 instr = 00d2b6b3   a0 = xxxxxxxx   sltu  $13, $5, $13
+   79  pc = 0000003c instr = fc069ae3   a0 = xxxxxxxx   bne   $13, $0, 0xffffffd4 (-44)
+   80  pc = 00000010 instr = 00032403   a0 = xxxxxxxx   lw    $8, 0($6)
+   81  pc = 00000014 instr = 00e464b3   a0 = xxxxxxxx   or    $9, $8, $14
+   82  pc = 00000018 instr = 40848633   a0 = xxxxxxxx   sub   $12, $9, $8
+   83  pc = 0000001c instr = 00061863   a0 = xxxxxxxx   bne   $12, $0, 0x00000010 (16)
+   84  pc = 00000020 instr = fff00613   a0 = xxxxxxxx   addi  $12, $0, 0xffffffff
+   85  pc = 00000024 instr = 40860433   a0 = xxxxxxxx   sub   $8, $12, $8
+   86  pc = 00000028 instr = 00832023   a0 = xxxxxxxx   sw    $8, 0($6)
+   87  pc = 0000002c instr = 00430313   a0 = xxxxxxxx   addi  $6, $6, 0x00000004
+   88  pc = 00000030 instr = 00128293   a0 = xxxxxxxx   addi  $5, $5, 0x00000001
+   89  pc = 00000034 instr = 02000693   a0 = xxxxxxxx   addi  $13, $0, 0x00000020
+   90  pc = 00000038 instr = 00d2b6b3   a0 = xxxxxxxx   sltu  $13, $5, $13
+   91  pc = 0000003c instr = fc069ae3   a0 = xxxxxxxx   bne   $13, $0, 0xffffffd4 (-44)
+   92  pc = 00000010 instr = 00032403   a0 = xxxxxxxx   lw    $8, 0($6)
+   93  pc = 00000014 instr = 00e464b3   a0 = xxxxxxxx   or    $9, $8, $14
+   94  pc = 00000018 instr = 40848633   a0 = xxxxxxxx   sub   $12, $9, $8
+   95  pc = 0000001c instr = 00061863   a0 = xxxxxxxx   bne   $12, $0, 0x00000010 (16)
+   96  pc = 00000020 instr = fff00613   a0 = xxxxxxxx   addi  $12, $0, 0xffffffff
+   97  pc = 00000024 instr = 40860433   a0 = xxxxxxxx   sub   $8, $12, $8
+   98  pc = 00000028 instr = 00832023   a0 = xxxxxxxx   sw    $8, 0($6)
+   99  pc = 0000002c instr = 00430313   a0 = xxxxxxxx   addi  $6, $6, 0x00000004
+  100  pc = 00000030 instr = 00128293   a0 = xxxxxxxx   addi  $5, $5, 0x00000001
+  101  pc = 00000034 instr = 02000693   a0 = xxxxxxxx   addi  $13, $0, 0x00000020
+  102  pc = 00000038 instr = 00d2b6b3   a0 = xxxxxxxx   sltu  $13, $5, $13
+  103  pc = 0000003c instr = fc069ae3   a0 = xxxxxxxx   bne   $13, $0, 0xffffffd4 (-44)
+  104  pc = 00000010 instr = 00032403   a0 = xxxxxxxx   lw    $8, 0($6)
+  105  pc = 00000014 instr = 00e464b3   a0 = xxxxxxxx   or    $9, $8, $14
+  106  pc = 00000018 instr = 40848633   a0 = xxxxxxxx   sub   $12, $9, $8
+  107  pc = 0000001c instr = 00061863   a0 = xxxxxxxx   bne   $12, $0, 0x00000010 (16)
+  108  pc = 0000002c instr = 00430313   a0 = xxxxxxxx   addi  $6, $6, 0x00000004
+  109  pc = 00000030 instr = 00128293   a0 = xxxxxxxx   addi  $5, $5, 0x00000001
+  110  pc = 00000034 instr = 02000693   a0 = xxxxxxxx   addi  $13, $0, 0x00000020
+  111  pc = 00000038 instr = 00d2b6b3   a0 = xxxxxxxx   sltu  $13, $5, $13
+  112  pc = 0000003c instr = fc069ae3   a0 = xxxxxxxx   bne   $13, $0, 0xffffffd4 (-44)
+  113  pc = 00000010 instr = 00032403   a0 = xxxxxxxx   lw    $8, 0($6)
+  114  pc = 00000014 instr = 00e464b3   a0 = xxxxxxxx   or    $9, $8, $14
+  115  pc = 00000018 instr = 40848633   a0 = xxxxxxxx   sub   $12, $9, $8
+  116  pc = 0000001c instr = 00061863   a0 = xxxxxxxx   bne   $12, $0, 0x00000010 (16)
+  117  pc = 00000020 instr = fff00613   a0 = xxxxxxxx   addi  $12, $0, 0xffffffff
+  118  pc = 00000024 instr = 40860433   a0 = xxxxxxxx   sub   $8, $12, $8
+  119  pc = 00000028 instr = 00832023   a0 = xxxxxxxx   sw    $8, 0($6)
+  120  pc = 0000002c instr = 00430313   a0 = xxxxxxxx   addi  $6, $6, 0x00000004
+  121  pc = 00000030 instr = 00128293   a0 = xxxxxxxx   addi  $5, $5, 0x00000001
+  122  pc = 00000034 instr = 02000693   a0 = xxxxxxxx   addi  $13, $0, 0x00000020
+  123  pc = 00000038 instr = 00d2b6b3   a0 = xxxxxxxx   sltu  $13, $5, $13
+  124  pc = 0000003c instr = fc069ae3   a0 = xxxxxxxx   bne   $13, $0, 0xffffffd4 (-44)
+  125  pc = 00000010 instr = 00032403   a0 = xxxxxxxx   lw    $8, 0($6)
+  126  pc = 00000014 instr = 00e464b3   a0 = xxxxxxxx   or    $9, $8, $14
+  127  pc = 00000018 instr = 40848633   a0 = xxxxxxxx   sub   $12, $9, $8
+  128  pc = 0000001c instr = 00061863   a0 = xxxxxxxx   bne   $12, $0, 0x00000010 (16)
+  129  pc = 00000020 instr = fff00613   a0 = xxxxxxxx   addi  $12, $0, 0xffffffff
+  130  pc = 00000024 instr = 40860433   a0 = xxxxxxxx   sub   $8, $12, $8
+  131  pc = 00000028 instr = 00832023   a0 = xxxxxxxx   sw    $8, 0($6)
+  132  pc = 0000002c instr = 00430313   a0 = xxxxxxxx   addi  $6, $6, 0x00000004
+  133  pc = 00000030 instr = 00128293   a0 = xxxxxxxx   addi  $5, $5, 0x00000001
+  134  pc = 00000034 instr = 02000693   a0 = xxxxxxxx   addi  $13, $0, 0x00000020
+  135  pc = 00000038 instr = 00d2b6b3   a0 = xxxxxxxx   sltu  $13, $5, $13
+  136  pc = 0000003c instr = fc069ae3   a0 = xxxxxxxx   bne   $13, $0, 0xffffffd4 (-44)
+  137  pc = 00000010 instr = 00032403   a0 = xxxxxxxx   lw    $8, 0($6)
+  138  pc = 00000014 instr = 00e464b3   a0 = xxxxxxxx   or    $9, $8, $14
+  139  pc = 00000018 instr = 40848633   a0 = xxxxxxxx   sub   $12, $9, $8
+  140  pc = 0000001c instr = 00061863   a0 = xxxxxxxx   bne   $12, $0, 0x00000010 (16)
+  141  pc = 0000002c instr = 00430313   a0 = xxxxxxxx   addi  $6, $6, 0x00000004
+  142  pc = 00000030 instr = 00128293   a0 = xxxxxxxx   addi  $5, $5, 0x00000001
+  143  pc = 00000034 instr = 02000693   a0 = xxxxxxxx   addi  $13, $0, 0x00000020
+  144  pc = 00000038 instr = 00d2b6b3   a0 = xxxxxxxx   sltu  $13, $5, $13
+  145  pc = 0000003c instr = fc069ae3   a0 = xxxxxxxx   bne   $13, $0, 0xffffffd4 (-44)
+  146  pc = 00000010 instr = 00032403   a0 = xxxxxxxx   lw    $8, 0($6)
+  147  pc = 00000014 instr = 00e464b3   a0 = xxxxxxxx   or    $9, $8, $14
+  148  pc = 00000018 instr = 40848633   a0 = xxxxxxxx   sub   $12, $9, $8
+  149  pc = 0000001c instr = 00061863   a0 = xxxxxxxx   bne   $12, $0, 0x00000010 (16)
+  150  pc = 00000020 instr = fff00613   a0 = xxxxxxxx   addi  $12, $0, 0xffffffff
+  151  pc = 00000024 instr = 40860433   a0 = xxxxxxxx   sub   $8, $12, $8
+  152  pc = 00000028 instr = 00832023   a0 = xxxxxxxx   sw    $8, 0($6)
+  153  pc = 0000002c instr = 00430313   a0 = xxxxxxxx   addi  $6, $6, 0x00000004
+  154  pc = 00000030 instr = 00128293   a0 = xxxxxxxx   addi  $5, $5, 0x00000001
+  155  pc = 00000034 instr = 02000693   a0 = xxxxxxxx   addi  $13, $0, 0x00000020
+  156  pc = 00000038 instr = 00d2b6b3   a0 = xxxxxxxx   sltu  $13, $5, $13
+  157  pc = 0000003c instr = fc069ae3   a0 = xxxxxxxx   bne   $13, $0, 0xffffffd4 (-44)
+  158  pc = 00000010 instr = 00032403   a0 = xxxxxxxx   lw    $8, 0($6)
+  159  pc = 00000014 instr = 00e464b3   a0 = xxxxxxxx   or    $9, $8, $14
+  160  pc = 00000018 instr = 40848633   a0 = xxxxxxxx   sub   $12, $9, $8
+  161  pc = 0000001c instr = 00061863   a0 = xxxxxxxx   bne   $12, $0, 0x00000010 (16)
+  162  pc = 0000002c instr = 00430313   a0 = xxxxxxxx   addi  $6, $6, 0x00000004
+  163  pc = 00000030 instr = 00128293   a0 = xxxxxxxx   addi  $5, $5, 0x00000001
+  164  pc = 00000034 instr = 02000693   a0 = xxxxxxxx   addi  $13, $0, 0x00000020
+  165  pc = 00000038 instr = 00d2b6b3   a0 = xxxxxxxx   sltu  $13, $5, $13
+  166  pc = 0000003c instr = fc069ae3   a0 = xxxxxxxx   bne   $13, $0, 0xffffffd4 (-44)
+  167  pc = 00000010 instr = 00032403   a0 = xxxxxxxx   lw    $8, 0($6)
+  168  pc = 00000014 instr = 00e464b3   a0 = xxxxxxxx   or    $9, $8, $14
+  169  pc = 00000018 instr = 40848633   a0 = xxxxxxxx   sub   $12, $9, $8
+  170  pc = 0000001c instr = 00061863   a0 = xxxxxxxx   bne   $12, $0, 0x00000010 (16)
+  171  pc = 00000020 instr = fff00613   a0 = xxxxxxxx   addi  $12, $0, 0xffffffff
+  172  pc = 00000024 instr = 40860433   a0 = xxxxxxxx   sub   $8, $12, $8
+  173  pc = 00000028 instr = 00832023   a0 = xxxxxxxx   sw    $8, 0($6)
+  174  pc = 0000002c instr = 00430313   a0 = xxxxxxxx   addi  $6, $6, 0x00000004
+  175  pc = 00000030 instr = 00128293   a0 = xxxxxxxx   addi  $5, $5, 0x00000001
+  176  pc = 00000034 instr = 02000693   a0 = xxxxxxxx   addi  $13, $0, 0x00000020
+  177  pc = 00000038 instr = 00d2b6b3   a0 = xxxxxxxx   sltu  $13, $5, $13
+  178  pc = 0000003c instr = fc069ae3   a0 = xxxxxxxx   bne   $13, $0, 0xffffffd4 (-44)
+  179  pc = 00000010 instr = 00032403   a0 = xxxxxxxx   lw    $8, 0($6)
+  180  pc = 00000014 instr = 00e464b3   a0 = xxxxxxxx   or    $9, $8, $14
+  181  pc = 00000018 instr = 40848633   a0 = xxxxxxxx   sub   $12, $9, $8
+  182  pc = 0000001c instr = 00061863   a0 = xxxxxxxx   bne   $12, $0, 0x00000010 (16)
+  183  pc = 0000002c instr = 00430313   a0 = xxxxxxxx   addi  $6, $6, 0x00000004
+  184  pc = 00000030 instr = 00128293   a0 = xxxxxxxx   addi  $5, $5, 0x00000001
+  185  pc = 00000034 instr = 02000693   a0 = xxxxxxxx   addi  $13, $0, 0x00000020
+  186  pc = 00000038 instr = 00d2b6b3   a0 = xxxxxxxx   sltu  $13, $5, $13
+  187  pc = 0000003c instr = fc069ae3   a0 = xxxxxxxx   bne   $13, $0, 0xffffffd4 (-44)
+  188  pc = 00000010 instr = 00032403   a0 = xxxxxxxx   lw    $8, 0($6)
+  189  pc = 00000014 instr = 00e464b3   a0 = xxxxxxxx   or    $9, $8, $14
+  190  pc = 00000018 instr = 40848633   a0 = xxxxxxxx   sub   $12, $9, $8
+  191  pc = 0000001c instr = 00061863   a0 = xxxxxxxx   bne   $12, $0, 0x00000010 (16)
+  192  pc = 00000020 instr = fff00613   a0 = xxxxxxxx   addi  $12, $0, 0xffffffff
+  193  pc = 00000024 instr = 40860433   a0 = xxxxxxxx   sub   $8, $12, $8
+  194  pc = 00000028 instr = 00832023   a0 = xxxxxxxx   sw    $8, 0($6)
+  195  pc = 0000002c instr = 00430313   a0 = xxxxxxxx   addi  $6, $6, 0x00000004
+  196  pc = 00000030 instr = 00128293   a0 = xxxxxxxx   addi  $5, $5, 0x00000001
+  197  pc = 00000034 instr = 02000693   a0 = xxxxxxxx   addi  $13, $0, 0x00000020
+  198  pc = 00000038 instr = 00d2b6b3   a0 = xxxxxxxx   sltu  $13, $5, $13
+  199  pc = 0000003c instr = fc069ae3   a0 = xxxxxxxx   bne   $13, $0, 0xffffffd4 (-44)
+  200  pc = 00000010 instr = 00032403   a0 = xxxxxxxx   lw    $8, 0($6)
+  201  pc = 00000014 instr = 00e464b3   a0 = xxxxxxxx   or    $9, $8, $14
+  202  pc = 00000018 instr = 40848633   a0 = xxxxxxxx   sub   $12, $9, $8
+  203  pc = 0000001c instr = 00061863   a0 = xxxxxxxx   bne   $12, $0, 0x00000010 (16)
+  204  pc = 00000020 instr = fff00613   a0 = xxxxxxxx   addi  $12, $0, 0xffffffff
+  205  pc = 00000024 instr = 40860433   a0 = xxxxxxxx   sub   $8, $12, $8
+  206  pc = 00000028 instr = 00832023   a0 = xxxxxxxx   sw    $8, 0($6)
+  207  pc = 0000002c instr = 00430313   a0 = xxxxxxxx   addi  $6, $6, 0x00000004
+  208  pc = 00000030 instr = 00128293   a0 = xxxxxxxx   addi  $5, $5, 0x00000001
+  209  pc = 00000034 instr = 02000693   a0 = xxxxxxxx   addi  $13, $0, 0x00000020
+  210  pc = 00000038 instr = 00d2b6b3   a0 = xxxxxxxx   sltu  $13, $5, $13
+  211  pc = 0000003c instr = fc069ae3   a0 = xxxxxxxx   bne   $13, $0, 0xffffffd4 (-44)
+  212  pc = 00000010 instr = 00032403   a0 = xxxxxxxx   lw    $8, 0($6)
+  213  pc = 00000014 instr = 00e464b3   a0 = xxxxxxxx   or    $9, $8, $14
+  214  pc = 00000018 instr = 40848633   a0 = xxxxxxxx   sub   $12, $9, $8
+  215  pc = 0000001c instr = 00061863   a0 = xxxxxxxx   bne   $12, $0, 0x00000010 (16)
+  216  pc = 0000002c instr = 00430313   a0 = xxxxxxxx   addi  $6, $6, 0x00000004
+  217  pc = 00000030 instr = 00128293   a0 = xxxxxxxx   addi  $5, $5, 0x00000001
+  218  pc = 00000034 instr = 02000693   a0 = xxxxxxxx   addi  $13, $0, 0x00000020
+  219  pc = 00000038 instr = 00d2b6b3   a0 = xxxxxxxx   sltu  $13, $5, $13
+  220  pc = 0000003c instr = fc069ae3   a0 = xxxxxxxx   bne   $13, $0, 0xffffffd4 (-44)
+  221  pc = 00000010 instr = 00032403   a0 = xxxxxxxx   lw    $8, 0($6)
+  222  pc = 00000014 instr = 00e464b3   a0 = xxxxxxxx   or    $9, $8, $14
+  223  pc = 00000018 instr = 40848633   a0 = xxxxxxxx   sub   $12, $9, $8
+  224  pc = 0000001c instr = 00061863   a0 = xxxxxxxx   bne   $12, $0, 0x00000010 (16)
+  225  pc = 0000002c instr = 00430313   a0 = xxxxxxxx   addi  $6, $6, 0x00000004
+  226  pc = 00000030 instr = 00128293   a0 = xxxxxxxx   addi  $5, $5, 0x00000001
+  227  pc = 00000034 instr = 02000693   a0 = xxxxxxxx   addi  $13, $0, 0x00000020
+  228  pc = 00000038 instr = 00d2b6b3   a0 = xxxxxxxx   sltu  $13, $5, $13
+  229  pc = 0000003c instr = fc069ae3   a0 = xxxxxxxx   bne   $13, $0, 0xffffffd4 (-44)
+  230  pc = 00000010 instr = 00032403   a0 = xxxxxxxx   lw    $8, 0($6)
+  231  pc = 00000014 instr = 00e464b3   a0 = xxxxxxxx   or    $9, $8, $14
+  232  pc = 00000018 instr = 40848633   a0 = xxxxxxxx   sub   $12, $9, $8
+  233  pc = 0000001c instr = 00061863   a0 = xxxxxxxx   bne   $12, $0, 0x00000010 (16)
+  234  pc = 00000020 instr = fff00613   a0 = xxxxxxxx   addi  $12, $0, 0xffffffff
+  235  pc = 00000024 instr = 40860433   a0 = xxxxxxxx   sub   $8, $12, $8
+  236  pc = 00000028 instr = 00832023   a0 = xxxxxxxx   sw    $8, 0($6)
+  237  pc = 0000002c instr = 00430313   a0 = xxxxxxxx   addi  $6, $6, 0x00000004
+  238  pc = 00000030 instr = 00128293   a0 = xxxxxxxx   addi  $5, $5, 0x00000001
+  239  pc = 00000034 instr = 02000693   a0 = xxxxxxxx   addi  $13, $0, 0x00000020
+  240  pc = 00000038 instr = 00d2b6b3   a0 = xxxxxxxx   sltu  $13, $5, $13
+  241  pc = 0000003c instr = fc069ae3   a0 = xxxxxxxx   bne   $13, $0, 0xffffffd4 (-44)
+  242  pc = 00000010 instr = 00032403   a0 = xxxxxxxx   lw    $8, 0($6)
+  243  pc = 00000014 instr = 00e464b3   a0 = xxxxxxxx   or    $9, $8, $14
+  244  pc = 00000018 instr = 40848633   a0 = xxxxxxxx   sub   $12, $9, $8
+  245  pc = 0000001c instr = 00061863   a0 = xxxxxxxx   bne   $12, $0, 0x00000010 (16)
+  246  pc = 0000002c instr = 00430313   a0 = xxxxxxxx   addi  $6, $6, 0x00000004
+  247  pc = 00000030 instr = 00128293   a0 = xxxxxxxx   addi  $5, $5, 0x00000001
+  248  pc = 00000034 instr = 02000693   a0 = xxxxxxxx   addi  $13, $0, 0x00000020
+  249  pc = 00000038 instr = 00d2b6b3   a0 = xxxxxxxx   sltu  $13, $5, $13
+  250  pc = 0000003c instr = fc069ae3   a0 = xxxxxxxx   bne   $13, $0, 0xffffffd4 (-44)
+  251  pc = 00000010 instr = 00032403   a0 = xxxxxxxx   lw    $8, 0($6)
+  252  pc = 00000014 instr = 00e464b3   a0 = xxxxxxxx   or    $9, $8, $14
+  253  pc = 00000018 instr = 40848633   a0 = xxxxxxxx   sub   $12, $9, $8
+  254  pc = 0000001c instr = 00061863   a0 = xxxxxxxx   bne   $12, $0, 0x00000010 (16)
+  255  pc = 0000002c instr = 00430313   a0 = xxxxxxxx   addi  $6, $6, 0x00000004
+  256  pc = 00000030 instr = 00128293   a0 = xxxxxxxx   addi  $5, $5, 0x00000001
+  257  pc = 00000034 instr = 02000693   a0 = xxxxxxxx   addi  $13, $0, 0x00000020
+  258  pc = 00000038 instr = 00d2b6b3   a0 = xxxxxxxx   sltu  $13, $5, $13
+  259  pc = 0000003c instr = fc069ae3   a0 = xxxxxxxx   bne   $13, $0, 0xffffffd4 (-44)
+  260  pc = 00000010 instr = 00032403   a0 = xxxxxxxx   lw    $8, 0($6)
+  261  pc = 00000014 instr = 00e464b3   a0 = xxxxxxxx   or    $9, $8, $14
+  262  pc = 00000018 instr = 40848633   a0 = xxxxxxxx   sub   $12, $9, $8
+  263  pc = 0000001c instr = 00061863   a0 = xxxxxxxx   bne   $12, $0, 0x00000010 (16)
+  264  pc = 00000020 instr = fff00613   a0 = xxxxxxxx   addi  $12, $0, 0xffffffff
+  265  pc = 00000024 instr = 40860433   a0 = xxxxxxxx   sub   $8, $12, $8
+  266  pc = 00000028 instr = 00832023   a0 = xxxxxxxx   sw    $8, 0($6)
+  267  pc = 0000002c instr = 00430313   a0 = xxxxxxxx   addi  $6, $6, 0x00000004
+  268  pc = 00000030 instr = 00128293   a0 = xxxxxxxx   addi  $5, $5, 0x00000001
+  269  pc = 00000034 instr = 02000693   a0 = xxxxxxxx   addi  $13, $0, 0x00000020
+  270  pc = 00000038 instr = 00d2b6b3   a0 = xxxxxxxx   sltu  $13, $5, $13
+  271  pc = 0000003c instr = fc069ae3   a0 = xxxxxxxx   bne   $13, $0, 0xffffffd4 (-44)
+  272  pc = 00000010 instr = 00032403   a0 = xxxxxxxx   lw    $8, 0($6)
+  273  pc = 00000014 instr = 00e464b3   a0 = xxxxxxxx   or    $9, $8, $14
+  274  pc = 00000018 instr = 40848633   a0 = xxxxxxxx   sub   $12, $9, $8
+  275  pc = 0000001c instr = 00061863   a0 = xxxxxxxx   bne   $12, $0, 0x00000010 (16)
+  276  pc = 00000020 instr = fff00613   a0 = xxxxxxxx   addi  $12, $0, 0xffffffff
+  277  pc = 00000024 instr = 40860433   a0 = xxxxxxxx   sub   $8, $12, $8
+  278  pc = 00000028 instr = 00832023   a0 = xxxxxxxx   sw    $8, 0($6)
+  279  pc = 0000002c instr = 00430313   a0 = xxxxxxxx   addi  $6, $6, 0x00000004
+  280  pc = 00000030 instr = 00128293   a0 = xxxxxxxx   addi  $5, $5, 0x00000001
+  281  pc = 00000034 instr = 02000693   a0 = xxxxxxxx   addi  $13, $0, 0x00000020
+  282  pc = 00000038 instr = 00d2b6b3   a0 = xxxxxxxx   sltu  $13, $5, $13
+  283  pc = 0000003c instr = fc069ae3   a0 = xxxxxxxx   bne   $13, $0, 0xffffffd4 (-44)
+  284  pc = 00000010 instr = 00032403   a0 = xxxxxxxx   lw    $8, 0($6)
+  285  pc = 00000014 instr = 00e464b3   a0 = xxxxxxxx   or    $9, $8, $14
+  286  pc = 00000018 instr = 40848633   a0 = xxxxxxxx   sub   $12, $9, $8
+  287  pc = 0000001c instr = 00061863   a0 = xxxxxxxx   bne   $12, $0, 0x00000010 (16)
+  288  pc = 0000002c instr = 00430313   a0 = xxxxxxxx   addi  $6, $6, 0x00000004
+  289  pc = 00000030 instr = 00128293   a0 = xxxxxxxx   addi  $5, $5, 0x00000001
+  290  pc = 00000034 instr = 02000693   a0 = xxxxxxxx   addi  $13, $0, 0x00000020
+  291  pc = 00000038 instr = 00d2b6b3   a0 = xxxxxxxx   sltu  $13, $5, $13
+  292  pc = 0000003c instr = fc069ae3   a0 = xxxxxxxx   bne   $13, $0, 0xffffffd4 (-44)
+  293  pc = 00000010 instr = 00032403   a0 = xxxxxxxx   lw    $8, 0($6)
+  294  pc = 00000014 instr = 00e464b3   a0 = xxxxxxxx   or    $9, $8, $14
+  295  pc = 00000018 instr = 40848633   a0 = xxxxxxxx   sub   $12, $9, $8
+  296  pc = 0000001c instr = 00061863   a0 = xxxxxxxx   bne   $12, $0, 0x00000010 (16)
+  297  pc = 00000020 instr = fff00613   a0 = xxxxxxxx   addi  $12, $0, 0xffffffff
+  298  pc = 00000024 instr = 40860433   a0 = xxxxxxxx   sub   $8, $12, $8
+  299  pc = 00000028 instr = 00832023   a0 = xxxxxxxx   sw    $8, 0($6)
+  300  pc = 0000002c instr = 00430313   a0 = xxxxxxxx   addi  $6, $6, 0x00000004
+  301  pc = 00000030 instr = 00128293   a0 = xxxxxxxx   addi  $5, $5, 0x00000001
+  302  pc = 00000034 instr = 02000693   a0 = xxxxxxxx   addi  $13, $0, 0x00000020
+  303  pc = 00000038 instr = 00d2b6b3   a0 = xxxxxxxx   sltu  $13, $5, $13
+  304  pc = 0000003c instr = fc069ae3   a0 = xxxxxxxx   bne   $13, $0, 0xffffffd4 (-44)
+  305  pc = 00000010 instr = 00032403   a0 = xxxxxxxx   lw    $8, 0($6)
+  306  pc = 00000014 instr = 00e464b3   a0 = xxxxxxxx   or    $9, $8, $14
+  307  pc = 00000018 instr = 40848633   a0 = xxxxxxxx   sub   $12, $9, $8
+  308  pc = 0000001c instr = 00061863   a0 = xxxxxxxx   bne   $12, $0, 0x00000010 (16)
+  309  pc = 0000002c instr = 00430313   a0 = xxxxxxxx   addi  $6, $6, 0x00000004
+  310  pc = 00000030 instr = 00128293   a0 = xxxxxxxx   addi  $5, $5, 0x00000001
+  311  pc = 00000034 instr = 02000693   a0 = xxxxxxxx   addi  $13, $0, 0x00000020
+  312  pc = 00000038 instr = 00d2b6b3   a0 = xxxxxxxx   sltu  $13, $5, $13
+  313  pc = 0000003c instr = fc069ae3   a0 = xxxxxxxx   bne   $13, $0, 0xffffffd4 (-44)
+  314  pc = 00000010 instr = 00032403   a0 = xxxxxxxx   lw    $8, 0($6)
+  315  pc = 00000014 instr = 00e464b3   a0 = xxxxxxxx   or    $9, $8, $14
+  316  pc = 00000018 instr = 40848633   a0 = xxxxxxxx   sub   $12, $9, $8
+  317  pc = 0000001c instr = 00061863   a0 = xxxxxxxx   bne   $12, $0, 0x00000010 (16)
+  318  pc = 0000002c instr = 00430313   a0 = xxxxxxxx   addi  $6, $6, 0x00000004
+  319  pc = 00000030 instr = 00128293   a0 = xxxxxxxx   addi  $5, $5, 0x00000001
+  320  pc = 00000034 instr = 02000693   a0 = xxxxxxxx   addi  $13, $0, 0x00000020
+  321  pc = 00000038 instr = 00d2b6b3   a0 = xxxxxxxx   sltu  $13, $5, $13
+  322  pc = 0000003c instr = fc069ae3   a0 = xxxxxxxx   bne   $13, $0, 0xffffffd4 (-44)
+  323  pc = 00000010 instr = 00032403   a0 = xxxxxxxx   lw    $8, 0($6)
+  324  pc = 00000014 instr = 00e464b3   a0 = xxxxxxxx   or    $9, $8, $14
+  325  pc = 00000018 instr = 40848633   a0 = xxxxxxxx   sub   $12, $9, $8
+  326  pc = 0000001c instr = 00061863   a0 = xxxxxxxx   bne   $12, $0, 0x00000010 (16)
+  327  pc = 00000020 instr = fff00613   a0 = xxxxxxxx   addi  $12, $0, 0xffffffff
+  328  pc = 00000024 instr = 40860433   a0 = xxxxxxxx   sub   $8, $12, $8
+  329  pc = 00000028 instr = 00832023   a0 = xxxxxxxx   sw    $8, 0($6)
+  330  pc = 0000002c instr = 00430313   a0 = xxxxxxxx   addi  $6, $6, 0x00000004
+  331  pc = 00000030 instr = 00128293   a0 = xxxxxxxx   addi  $5, $5, 0x00000001
+  332  pc = 00000034 instr = 02000693   a0 = xxxxxxxx   addi  $13, $0, 0x00000020
+  333  pc = 00000038 instr = 00d2b6b3   a0 = xxxxxxxx   sltu  $13, $5, $13
+  334  pc = 0000003c instr = fc069ae3   a0 = xxxxxxxx   bne   $13, $0, 0xffffffd4 (-44)
+  335  pc = 00000010 instr = 00032403   a0 = xxxxxxxx   lw    $8, 0($6)
+  336  pc = 00000014 instr = 00e464b3   a0 = xxxxxxxx   or    $9, $8, $14
+  337  pc = 00000018 instr = 40848633   a0 = xxxxxxxx   sub   $12, $9, $8
+  338  pc = 0000001c instr = 00061863   a0 = xxxxxxxx   bne   $12, $0, 0x00000010 (16)
+  339  pc = 00000020 instr = fff00613   a0 = xxxxxxxx   addi  $12, $0, 0xffffffff
+  340  pc = 00000024 instr = 40860433   a0 = xxxxxxxx   sub   $8, $12, $8
+  341  pc = 00000028 instr = 00832023   a0 = xxxxxxxx   sw    $8, 0($6)
+  342  pc = 0000002c instr = 00430313   a0 = xxxxxxxx   addi  $6, $6, 0x00000004
+  343  pc = 00000030 instr = 00128293   a0 = xxxxxxxx   addi  $5, $5, 0x00000001
+  344  pc = 00000034 instr = 02000693   a0 = xxxxxxxx   addi  $13, $0, 0x00000020
+  345  pc = 00000038 instr = 00d2b6b3   a0 = xxxxxxxx   sltu  $13, $5, $13
+  346  pc = 0000003c instr = fc069ae3   a0 = xxxxxxxx   bne   $13, $0, 0xffffffd4 (-44)
+  347  pc = 00000040 instr = 00000293   a0 = xxxxxxxx   addi  $5, $0, 0x00000000
+  348  pc = 00000044 instr = 00058313   a0 = xxxxxxxx   addi  $6, $11, 0x00000000
+  349  pc = 00000048 instr = 00032503   a0 = xxxxxxxx   lw    $10, 0($6)
+  350  pc = 0000004c instr = 00430313   a0 = 8a3f1c72   addi  $6, $6, 0x00000004
+  351  pc = 00000050 instr = 00128293   a0 = 8a3f1c72   addi  $5, $5, 0x00000001
+  352  pc = 00000054 instr = 02000693   a0 = 8a3f1c72   addi  $13, $0, 0x00000020
+  353  pc = 00000058 instr = 00d2b6b3   a0 = 8a3f1c72   sltu  $13, $5, $13
+  354  pc = 0000005c instr = fe0696e3   a0 = 8a3f1c72   bne   $13, $0, 0xffffffec (-20)
+  355  pc = 00000048 instr = 00032503   a0 = 8a3f1c72   lw    $10, 0($6)
+  356  pc = 0000004c instr = 00430313   a0 = eb26495a   addi  $6, $6, 0x00000004
+  357  pc = 00000050 instr = 00128293   a0 = eb26495a   addi  $5, $5, 0x00000001
+  358  pc = 00000054 instr = 02000693   a0 = eb26495a   addi  $13, $0, 0x00000020
+  359  pc = 00000058 instr = 00d2b6b3   a0 = eb26495a   sltu  $13, $5, $13
+  360  pc = 0000005c instr = fe0696e3   a0 = eb26495a   bne   $13, $0, 0xffffffec (-20)
+  361  pc = 00000048 instr = 00032503   a0 = eb26495a   lw    $10, 0($6)
+  362  pc = 0000004c instr = 00430313   a0 = f72c890e   addi  $6, $6, 0x00000004
+  363  pc = 00000050 instr = 00128293   a0 = f72c890e   addi  $5, $5, 0x00000001
+  364  pc = 00000054 instr = 02000693   a0 = f72c890e   addi  $13, $0, 0x00000020
+  365  pc = 00000058 instr = 00d2b6b3   a0 = f72c890e   sltu  $13, $5, $13
+  366  pc = 0000005c instr = fe0696e3   a0 = f72c890e   bne   $13, $0, 0xffffffec (-20)
+  367  pc = 00000048 instr = 00032503   a0 = f72c890e   lw    $10, 0($6)
+  368  pc = 0000004c instr = 00430313   a0 = c65fba92   addi  $6, $6, 0x00000004
+  369  pc = 00000050 instr = 00128293   a0 = c65fba92   addi  $5, $5, 0x00000001
+  370  pc = 00000054 instr = 02000693   a0 = c65fba92   addi  $13, $0, 0x00000020
+  371  pc = 00000058 instr = 00d2b6b3   a0 = c65fba92   sltu  $13, $5, $13
+  372  pc = 0000005c instr = fe0696e3   a0 = c65fba92   bne   $13, $0, 0xffffffec (-20)
+  373  pc = 00000048 instr = 00032503   a0 = c65fba92   lw    $10, 0($6)
+  374  pc = 0000004c instr = 00430313   a0 = 3de710c4   addi  $6, $6, 0x00000004
+  375  pc = 00000050 instr = 00128293   a0 = 3de710c4   addi  $5, $5, 0x00000001
+  376  pc = 00000054 instr = 02000693   a0 = 3de710c4   addi  $13, $0, 0x00000020
+  377  pc = 00000058 instr = 00d2b6b3   a0 = 3de710c4   sltu  $13, $5, $13
+  378  pc = 0000005c instr = fe0696e3   a0 = 3de710c4   bne   $13, $0, 0xffffffec (-20)
+  379  pc = 00000048 instr = 00032503   a0 = 3de710c4   lw    $10, 0($6)
+  380  pc = 0000004c instr = 00430313   a0 = 95b702da   addi  $6, $6, 0x00000004
+  381  pc = 00000050 instr = 00128293   a0 = 95b702da   addi  $5, $5, 0x00000001
+  382  pc = 00000054 instr = 02000693   a0 = 95b702da   addi  $13, $0, 0x00000020
+  383  pc = 00000058 instr = 00d2b6b3   a0 = 95b702da   sltu  $13, $5, $13
+  384  pc = 0000005c instr = fe0696e3   a0 = 95b702da   bne   $13, $0, 0xffffffec (-20)
+  385  pc = 00000048 instr = 00032503   a0 = 95b702da   lw    $10, 0($6)
+  386  pc = 0000004c instr = 00430313   a0 = 6e4a139c   addi  $6, $6, 0x00000004
+  387  pc = 00000050 instr = 00128293   a0 = 6e4a139c   addi  $5, $5, 0x00000001
+  388  pc = 00000054 instr = 02000693   a0 = 6e4a139c   addi  $13, $0, 0x00000020
+  389  pc = 00000058 instr = 00d2b6b3   a0 = 6e4a139c   sltu  $13, $5, $13
+  390  pc = 0000005c instr = fe0696e3   a0 = 6e4a139c   bne   $13, $0, 0xffffffec (-20)
+  391  pc = 00000048 instr = 00032503   a0 = 6e4a139c   lw    $10, 0($6)
+  392  pc = 0000004c instr = 00430313   a0 = 280ac7be   addi  $6, $6, 0x00000004
+  393  pc = 00000050 instr = 00128293   a0 = 280ac7be   addi  $5, $5, 0x00000001
+  394  pc = 00000054 instr = 02000693   a0 = 280ac7be   addi  $13, $0, 0x00000020
+  395  pc = 00000058 instr = 00d2b6b3   a0 = 280ac7be   sltu  $13, $5, $13
+  396  pc = 0000005c instr = fe0696e3   a0 = 280ac7be   bne   $13, $0, 0xffffffec (-20)
+  397  pc = 00000048 instr = 00032503   a0 = 280ac7be   lw    $10, 0($6)
+  398  pc = 0000004c instr = 00430313   a0 = dc476598   addi  $6, $6, 0x00000004
+  399  pc = 00000050 instr = 00128293   a0 = dc476598   addi  $5, $5, 0x00000001
+  400  pc = 00000054 instr = 02000693   a0 = dc476598   addi  $13, $0, 0x00000020
+  401  pc = 00000058 instr = 00d2b6b3   a0 = dc476598   sltu  $13, $5, $13
+  402  pc = 0000005c instr = fe0696e3   a0 = dc476598   bne   $13, $0, 0xffffffec (-20)
+  403  pc = 00000048 instr = 00032503   a0 = dc476598   lw    $10, 0($6)
+  404  pc = 0000004c instr = 00430313   a0 = 0f5cd2e4   addi  $6, $6, 0x00000004
+  405  pc = 00000050 instr = 00128293   a0 = 0f5cd2e4   addi  $5, $5, 0x00000001
+  406  pc = 00000054 instr = 02000693   a0 = 0f5cd2e4   addi  $13, $0, 0x00000020
+  407  pc = 00000058 instr = 00d2b6b3   a0 = 0f5cd2e4   sltu  $13, $5, $13
+  408  pc = 0000005c instr = fe0696e3   a0 = 0f5cd2e4   bne   $13, $0, 0xffffffec (-20)
+  409  pc = 00000048 instr = 00032503   a0 = 0f5cd2e4   lw    $10, 0($6)
+  410  pc = 0000004c instr = 00430313   a0 = 4ed895c6   addi  $6, $6, 0x00000004
+  411  pc = 00000050 instr = 00128293   a0 = 4ed895c6   addi  $5, $5, 0x00000001
+  412  pc = 00000054 instr = 02000693   a0 = 4ed895c6   addi  $13, $0, 0x00000020
+  413  pc = 00000058 instr = 00d2b6b3   a0 = 4ed895c6   sltu  $13, $5, $13
+  414  pc = 0000005c instr = fe0696e3   a0 = 4ed895c6   bne   $13, $0, 0xffffffec (-20)
+  415  pc = 00000048 instr = 00032503   a0 = 4ed895c6   lw    $10, 0($6)
+  416  pc = 0000004c instr = 00430313   a0 = b2673cfe   addi  $6, $6, 0x00000004
+  417  pc = 00000050 instr = 00128293   a0 = b2673cfe   addi  $5, $5, 0x00000001
+  418  pc = 00000054 instr = 02000693   a0 = b2673cfe   addi  $13, $0, 0x00000020
+  419  pc = 00000058 instr = 00d2b6b3   a0 = b2673cfe   sltu  $13, $5, $13
+  420  pc = 0000005c instr = fe0696e3   a0 = b2673cfe   bne   $13, $0, 0xffffffec (-20)
+  421  pc = 00000048 instr = 00032503   a0 = b2673cfe   lw    $10, 0($6)
+  422  pc = 0000004c instr = 00430313   a0 = e3a5bf74   addi  $6, $6, 0x00000004
+  423  pc = 00000050 instr = 00128293   a0 = e3a5bf74   addi  $5, $5, 0x00000001
+  424  pc = 00000054 instr = 02000693   a0 = e3a5bf74   addi  $13, $0, 0x00000020
+  425  pc = 00000058 instr = 00d2b6b3   a0 = e3a5bf74   sltu  $13, $5, $13
+  426  pc = 0000005c instr = fe0696e3   a0 = e3a5bf74   bne   $13, $0, 0xffffffec (-20)
+  427  pc = 00000048 instr = 00032503   a0 = e3a5bf74   lw    $10, 0($6)
+  428  pc = 0000004c instr = 00430313   a0 = e392d706   addi  $6, $6, 0x00000004
+  429  pc = 00000050 instr = 00128293   a0 = e392d706   addi  $5, $5, 0x00000001
+  430  pc = 00000054 instr = 02000693   a0 = e392d706   addi  $13, $0, 0x00000020
+  431  pc = 00000058 instr = 00d2b6b3   a0 = e392d706   sltu  $13, $5, $13
+  432  pc = 0000005c instr = fe0696e3   a0 = e392d706   bne   $13, $0, 0xffffffec (-20)
+  433  pc = 00000048 instr = 00032503   a0 = e392d706   lw    $10, 0($6)
+  434  pc = 0000004c instr = 00430313   a0 = a9307c52   addi  $6, $6, 0x00000004
+  435  pc = 00000050 instr = 00128293   a0 = a9307c52   addi  $5, $5, 0x00000001
+  436  pc = 00000054 instr = 02000693   a0 = a9307c52   addi  $13, $0, 0x00000020
+  437  pc = 00000058 instr = 00d2b6b3   a0 = a9307c52   sltu  $13, $5, $13
+  438  pc = 0000005c instr = fe0696e3   a0 = a9307c52   bne   $13, $0, 0xffffffec (-20)
+  439  pc = 00000048 instr = 00032503   a0 = a9307c52   lw    $10, 0($6)
+  440  pc = 0000004c instr = 00430313   a0 = 790be412   addi  $6, $6, 0x00000004
+  441  pc = 00000050 instr = 00128293   a0 = 790be412   addi  $5, $5, 0x00000001
+  442  pc = 00000054 instr = 02000693   a0 = 790be412   addi  $13, $0, 0x00000020
+  443  pc = 00000058 instr = 00d2b6b3   a0 = 790be412   sltu  $13, $5, $13
+  444  pc = 0000005c instr = fe0696e3   a0 = 790be412   bne   $13, $0, 0xffffffec (-20)
+  445  pc = 00000048 instr = 00032503   a0 = 790be412   lw    $10, 0($6)
+  446  pc = 0000004c instr = 00430313   a0 = 52c3970a   addi  $6, $6, 0x00000004
+  447  pc = 00000050 instr = 00128293   a0 = 52c3970a   addi  $5, $5, 0x00000001
+  448  pc = 00000054 instr = 02000693   a0 = 52c3970a   addi  $13, $0, 0x00000020
+  449  pc = 00000058 instr = 00d2b6b3   a0 = 52c3970a   sltu  $13, $5, $13
+  450  pc = 0000005c instr = fe0696e3   a0 = 52c3970a   bne   $13, $0, 0xffffffec (-20)
+  451  pc = 00000048 instr = 00032503   a0 = 52c3970a   lw    $10, 0($6)
+  452  pc = 0000004c instr = 00430313   a0 = 619207dc   addi  $6, $6, 0x00000004
+  453  pc = 00000050 instr = 00128293   a0 = 619207dc   addi  $5, $5, 0x00000001
+  454  pc = 00000054 instr = 02000693   a0 = 619207dc   addi  $13, $0, 0x00000020
+  455  pc = 00000058 instr = 00d2b6b3   a0 = 619207dc   sltu  $13, $5, $13
+  456  pc = 0000005c instr = fe0696e3   a0 = 619207dc   bne   $13, $0, 0xffffffec (-20)
+  457  pc = 00000048 instr = 00032503   a0 = 619207dc   lw    $10, 0($6)
+  458  pc = 0000004c instr = 00430313   a0 = c84f5b3a   addi  $6, $6, 0x00000004
+  459  pc = 00000050 instr = 00128293   a0 = c84f5b3a   addi  $5, $5, 0x00000001
+  460  pc = 00000054 instr = 02000693   a0 = c84f5b3a   addi  $13, $0, 0x00000020
+  461  pc = 00000058 instr = 00d2b6b3   a0 = c84f5b3a   sltu  $13, $5, $13
+  462  pc = 0000005c instr = fe0696e3   a0 = c84f5b3a   bne   $13, $0, 0xffffffec (-20)
+  463  pc = 00000048 instr = 00032503   a0 = c84f5b3a   lw    $10, 0($6)
+  464  pc = 0000004c instr = 00430313   a0 = c84e5962   addi  $6, $6, 0x00000004
+  465  pc = 00000050 instr = 00128293   a0 = c84e5962   addi  $5, $5, 0x00000001
+  466  pc = 00000054 instr = 02000693   a0 = c84e5962   addi  $13, $0, 0x00000020
+  467  pc = 00000058 instr = 00d2b6b3   a0 = c84e5962   sltu  $13, $5, $13
+  468  pc = 0000005c instr = fe0696e3   a0 = c84e5962   bne   $13, $0, 0xffffffec (-20)
+  469  pc = 00000048 instr = 00032503   a0 = c84e5962   lw    $10, 0($6)
+  470  pc = 0000004c instr = 00430313   a0 = f19237b8   addi  $6, $6, 0x00000004
+  471  pc = 00000050 instr = 00128293   a0 = f19237b8   addi  $5, $5, 0x00000001
+  472  pc = 00000054 instr = 02000693   a0 = f19237b8   addi  $13, $0, 0x00000020
+  473  pc = 00000058 instr = 00d2b6b3   a0 = f19237b8   sltu  $13, $5, $13
+  474  pc = 0000005c instr = fe0696e3   a0 = f19237b8   bne   $13, $0, 0xffffffec (-20)
+  475  pc = 00000048 instr = 00032503   a0 = f19237b8   lw    $10, 0($6)
+  476  pc = 0000004c instr = 00430313   a0 = d29a13f6   addi  $6, $6, 0x00000004
+  477  pc = 00000050 instr = 00128293   a0 = d29a13f6   addi  $5, $5, 0x00000001
+  478  pc = 00000054 instr = 02000693   a0 = d29a13f6   addi  $13, $0, 0x00000020
+  479  pc = 00000058 instr = 00d2b6b3   a0 = d29a13f6   sltu  $13, $5, $13
+  480  pc = 0000005c instr = fe0696e3   a0 = d29a13f6   bne   $13, $0, 0xffffffec (-20)
+  481  pc = 00000048 instr = 00032503   a0 = d29a13f6   lw    $10, 0($6)
+  482  pc = 0000004c instr = 00430313   a0 = 7a4081d6   addi  $6, $6, 0x00000004
+  483  pc = 00000050 instr = 00128293   a0 = 7a4081d6   addi  $5, $5, 0x00000001
+  484  pc = 00000054 instr = 02000693   a0 = 7a4081d6   addi  $13, $0, 0x00000020
+  485  pc = 00000058 instr = 00d2b6b3   a0 = 7a4081d6   sltu  $13, $5, $13
+  486  pc = 0000005c instr = fe0696e3   a0 = 7a4081d6   bne   $13, $0, 0xffffffec (-20)
+  487  pc = 00000048 instr = 00032503   a0 = 7a4081d6   lw    $10, 0($6)
+  488  pc = 0000004c instr = 00430313   a0 = b9f3254c   addi  $6, $6, 0x00000004
+  489  pc = 00000050 instr = 00128293   a0 = b9f3254c   addi  $5, $5, 0x00000001
+  490  pc = 00000054 instr = 02000693   a0 = b9f3254c   addi  $13, $0, 0x00000020
+  491  pc = 00000058 instr = 00d2b6b3   a0 = b9f3254c   sltu  $13, $5, $13
+  492  pc = 0000005c instr = fe0696e3   a0 = b9f3254c   bne   $13, $0, 0xffffffec (-20)
+  493  pc = 00000048 instr = 00032503   a0 = b9f3254c   lw    $10, 0($6)
+  494  pc = 0000004c instr = 00430313   a0 = 9e2874c0   addi  $6, $6, 0x00000004
+  495  pc = 00000050 instr = 00128293   a0 = 9e2874c0   addi  $5, $5, 0x00000001
+  496  pc = 00000054 instr = 02000693   a0 = 9e2874c0   addi  $13, $0, 0x00000020
+  497  pc = 00000058 instr = 00d2b6b3   a0 = 9e2874c0   sltu  $13, $5, $13
+  498  pc = 0000005c instr = fe0696e3   a0 = 9e2874c0   bne   $13, $0, 0xffffffec (-20)
+  499  pc = 00000048 instr = 00032503   a0 = 9e2874c0   lw    $10, 0($6)
+  500  pc = 0000004c instr = 00430313   a0 = b5d1396e   addi  $6, $6, 0x00000004
+Timeout
